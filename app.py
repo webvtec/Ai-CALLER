@@ -23,7 +23,8 @@ SMTP_PASS = config["smtp_pass"]
 app = Flask(__name__)
 
 # Set your OpenAI API Key
-openai.api_key = "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"
+import os
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 
 @app.route("/voice", methods=["POST"])
