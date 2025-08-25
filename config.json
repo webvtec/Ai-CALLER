@@ -1,10 +1,11 @@
 {
-  "business_name": "Kingston Auto Repair",
-  "business_prompt": "You are the receptionist for Kingston Auto Repair in Jamaica. Be polite, answer customer questions, and help book appointments.",
-  "email_from": "youremail@example.com",
-  "email_to": "owner@example.com",
-  "smtp_server": "smtp.gmail.com",
-  "smtp_port": 465,
-  "smtp_user": "youremail@example.com",
-  "smtp_pass": "YOUR_APP_PASSWORD"
+  "business_name": "My Business",
+  "business_prompt": "You are a polite receptionist for My Business. Greet callers warmly and answer simple questions.",
+  "email_settings": {
+    "smtp_server": "smtp.gmail.com",
+    "smtp_port": 587,
+    "smtp_user": "mybusiness@gmail.com",
+    "smtp_password": "your_email_password",
+    "recipient_email": "owner@mybusiness.com"
+  }
 }
